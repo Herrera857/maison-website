@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Inquire · Maison Farrow & Herrera</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,300;1,9..144,400&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<nav>
+  <a href="index.html" class="logo">Maison Farrow <em>&amp;</em> Herrera</a>
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="about.html">The House</a>
+    <a href="services.html">Services</a>
+    <a href="europe.html">Europe</a>
+    <a href="contact.html" class="active">Inquire</a>
+  </div>
+</nav>
+
+<header class="page-header">
+  <div class="eyebrow">Begin</div>
+  <h1>Tell us what you <em>dream of.</em></h1>
+  <p class="lede">A first conversation is free, candid, and in either English or French — whichever you'd prefer.</p>
+</header>
+
+<!-- CONTACT FORM -->
+<section style="padding-top:2rem;">
+  <div class="container narrow">
+    <form style="background:var(--paper);padding:3rem 2.5rem;border-left:2px solid var(--gold);" action="mailto:parlemoi@proton.me" method="post" enctype="text/plain">
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin-bottom:1.5rem;">
+        <label style="display:block;">
+          <span style="display:block;font-size:0.72rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--terracotta);font-weight:500;margin-bottom:0.5rem;">Name</span>
+          <input type="text" name="name" required style="width:100%;padding:0.8rem;border:1px solid var(--rule);background:var(--cream);font-family:inherit;font-size:1rem;color:var(--ink);">
+        </label>
+        <label style="display:block;">
+          <span style="display:block;font-size:0.72rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--terracotta);font-weight:500;margin-bottom:0.5rem;">Email</span>
+          <input type="email" name="email" required style="width:100%;padding:0.8rem;border:1px solid var(--rule);background:var(--cream);font-family:inherit;font-size:1rem;color:var(--ink);">
+        </label>
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin-bottom:1.5rem;">
+        <label style="display:block;">
+          <span style="display:block;font-size:0.72rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--terracotta);font-weight:500;margin-bottom:0.5rem;">When?</span>
+          <input type="text" name="dates" placeholder="Spring 2027, etc." style="width:100%;padding:0.8rem;border:1px solid var(--rule);background:var(--cream);font-family:inherit;font-size:1rem;color:var(--ink);">
+        </label>
+        <label style="display:block;">
+          <span style="display:block;font-size:0.72rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--terracotta);font-weight:500;margin-bottom:0.5rem;">Where?</span>
+          <input type="text" name="where" placeholder="France, Italy, somewhere new..." style="width:100%;padding:0.8rem;border:1px solid var(--rule);background:var(--cream);font-family:inherit;font-size:1rem;color:var(--ink);">
+        </label>
+      </div>
+      <label style="display:block;margin-bottom:2rem;">
+        <span style="display:block;font-size:0.72rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--terracotta);font-weight:500;margin-bottom:0.5rem;">Tell us a little</span>
+        <textarea name="message" rows="6" placeholder="What kind of trip are you imagining? Who's traveling? What have you loved before?" style="width:100%;padding:0.8rem;border:1px solid var(--rule);background:var(--cream);font-family:inherit;font-size:1rem;color:var(--ink);resize:vertical;"></textarea>
+      </label>
+      <button type="submit" class="cta" style="border:none;cursor:pointer;font-family:inherit;">Send</button>
+      <p style="font-size:0.82rem;color:var(--ink-soft);margin-top:1.5rem;font-style:italic;font-family:'Fraunces',serif;">
+        Or simply email <a href="mailto:parlemoi@proton.me" style="color:var(--bordeaux);">parlemoi@proton.me</a> — we read every message ourselves.
+      </p>
+    </form>
+  </div>
+</section>
+
+<!-- DIRECT CONTACT -->
+<section style="text-align:center;background:var(--cream-dark);">
+  <div class="container">
+    <div class="section-label" style="justify-content:center;">Or directly</div>
+    <h2 class="section-title" style="margin:0 auto 2rem;text-align:center;">Reach out <em>any time.</em></h2>
+    <div style="margin-bottom:2rem;">
+      <a href="mailto:parlemoi@proton.me" class="contact-method">parlemoi@proton.me</a>
+      <a href="tel:+33767143011" class="contact-method">+33 7 67 14 30 11</a>
+    </div>
+    <p style="font-family:'Fraunces',serif;font-style:italic;color:var(--ink-soft);font-size:1rem;max-width:32rem;margin:0 auto;font-weight:300;">
+      We are in France (CET / CEST) but reachable on US schedules by arrangement. Replies usually within 24 hours.
+    </p>
+  </div>
+</section>
+
+<!-- WHAT TO EXPECT -->
+<section>
+  <div class="container narrow prose">
+    <div class="section-label">What to Expect</div>
+    <h2 class="section-title">After you <em>write.</em></h2>
+    <p>
+      Within a day or two, you'll hear from one of us personally — usually Arthur, who handles first conversations. We'll suggest a half-hour call, by phone or video, at a time that works for you.
+    </p>
+    <p>
+      That first conversation is free and obligation-free. We're not for everyone, and not every trip is right for us. We'd rather find out together than after the fact. If we're a good fit, we'll talk about next steps. If not, we'll happily point you toward someone who is.
+    </p>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-mark">Maison Farrow <em>&amp;</em> Herrera</div>
+  <div class="footer-location">Pouzauges · Vendée · France</div>
+  <div class="footer-rule"></div>
+  <div class="footer-nav">
+    <a href="index.html">Home</a>
+    <a href="about.html">The House</a>
+    <a href="services.html">Services</a>
+    <a href="europe.html">Europe</a>
+    <a href="contact.html">Inquire</a>
+  </div>
+  <div class="footer-fine">A bespoke European travel concierge · Established 2026</div>
+</footer>
+</body>
+</html>

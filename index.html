@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Maison Farrow & Herrera — Bespoke European Travel</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,300;1,9..144,400&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<nav>
+  <a href="index.html" class="logo">Maison Farrow <em>&amp;</em> Herrera</a>
+  <div class="nav-links">
+    <a href="index.html" class="active">Home</a>
+    <a href="about.html">The House</a>
+    <a href="services.html">Services</a>
+    <a href="europe.html">Europe</a>
+    <a href="contact.html">Inquire</a>
+  </div>
+</nav>
+
+<header class="hero" style="min-height:100vh;display:flex;align-items:center;padding:8rem 2rem 4rem;position:relative;overflow:hidden;">
+  <div style="position:absolute;right:5%;top:50%;transform:translateY(-50%);font-family:'Fraunces',serif;font-style:italic;font-size:clamp(8rem,18vw,18rem);color:rgba(184,112,77,0.08);font-weight:300;line-height:1;pointer-events:none;user-select:none;z-index:1;">M&amp;H</div>
+  <div style="max-width:1200px;margin:0 auto;width:100%;position:relative;z-index:2;display:grid;grid-template-columns:1.2fr 1fr;gap:4rem;align-items:center;" class="hero-inner-grid">
+    <div>
+      <div style="font-size:0.75rem;letter-spacing:0.3em;text-transform:uppercase;color:var(--terracotta);margin-bottom:1.5rem;font-weight:500;opacity:0;animation:rise 0.9s 0.2s forwards;">A bespoke European travel concierge</div>
+      <h1 style="font-family:'Fraunces',serif;font-size:clamp(2.2rem,5.5vw,4.2rem);line-height:1.05;font-weight:400;color:var(--bordeaux-deep);margin-bottom:2rem;letter-spacing:-0.02em;opacity:0;animation:rise 1s 0.4s forwards;">Europe, planned with the <em style="font-style:italic;font-weight:300;color:var(--terracotta);">standards we lived by.</em></h1>
+      <p style="font-family:'Fraunces',serif;font-size:clamp(1.1rem,1.6vw,1.35rem);line-height:1.5;color:var(--ink-soft);max-width:38rem;font-weight:300;margin-bottom:3rem;opacity:0;animation:rise 1s 0.6s forwards;">
+        We are two Americans — a chef and a diplomat's butler — who built our lives in the European countryside. We plan extraordinary journeys for travelers who notice the difference between good and exceptional.
+      </p>
+      <a href="contact.html" class="cta" style="opacity:0;animation:rise 1s 0.8s forwards;">Begin a Conversation</a>
+    </div>
+    <figure style="margin:0;position:relative;">
+      <img src="house.jpg" alt="Our home in Pouzauges, Vendée" loading="eager" style="width:100%;aspect-ratio:3/4;object-fit:cover;filter:sepia(0.05) saturate(0.95);box-shadow:0 25px 60px rgba(63,24,24,0.22);opacity:0;animation:rise 1.2s 0.9s forwards;">
+      <div style="position:absolute;top:1.5rem;left:1.5rem;right:-1.5rem;bottom:-1.5rem;border:1px solid var(--gold);z-index:-1;opacity:0;animation:rise 1.2s 1.1s forwards;"></div>
+      <figcaption style="font-family:'Fraunces',serif;font-style:italic;font-weight:300;font-size:0.85rem;color:var(--ink-soft);text-align:center;margin-top:1.25rem;letter-spacing:0.05em;opacity:0;animation:rise 1.2s 1.3s forwards;">Our front door · Pouzauges, Vendée</figcaption>
+    </figure>
+  </div>
+</header>
+
+<style>
+@media (max-width: 900px) {
+  .hero-inner-grid { grid-template-columns: 1fr !important; gap: 3rem !important; }
+}
+</style>
+
+<!-- THE PROMISE -->
+<section style="background:var(--paper);">
+  <div class="container narrow" style="text-align:center;">
+    <div class="section-label" style="justify-content:center;">The Promise</div>
+    <h2 class="section-title" style="margin:0 auto 2rem;">Not a booking site. <em>A real concierge.</em></h2>
+    <p style="font-family:'Fraunces',serif;font-size:1.2rem;line-height:1.6;color:var(--ink-soft);font-weight:300;max-width:38rem;margin:0 auto 3rem;">
+      From the Vendée to Tuscany, from Lisbon to Vienna — we travel constantly, we keep small lists of people we trust, and we plan a handful of trips each season as if they were our own.
+    </p>
+    <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
+      <a href="services.html" class="cta">What We Do</a>
+      <a href="about.html" class="cta-ghost">Meet Us</a>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURED IMAGE: TRUFFLE MARKET -->
+<section class="interlude">
+  <div class="interlude-image">
+    <img src="florence-duomo.jpg" alt="A Tuscan truffle stand — salsiccia and mousse al tartufo" loading="lazy" style="object-position:center 40%;">
+  </div>
+  <div class="interlude-caption">
+    <div class="interlude-label">The tables we know</div>
+    <p class="interlude-text">
+      A truffle market in the hills outside Florence. <em>The vendor who'll talk you through what's good this week</em> — and the corner of the stall the tour buses never find.
+    </p>
+  </div>
+</section>
+
+<!-- SERVICES PREVIEW -->
+<section>
+  <div class="container">
+    <div class="section-label">A Full Concierge</div>
+    <h2 class="section-title">Everything, <em>handled.</em></h2>
+    <div class="cards">
+      <div class="card">
+        <span class="card-number">i.</span>
+        <h3 class="card-title">Trip Design</h3>
+        <p class="card-text">Full European itineraries built around your interests — wine, opera, slow countryside, urban culture.</p>
+      </div>
+      <div class="card">
+        <span class="card-number">ii.</span>
+        <h3 class="card-title">Reservations</h3>
+        <p class="card-text">Restaurants, hotels, and private experiences. We use our names so you don't have to.</p>
+      </div>
+      <div class="card">
+        <span class="card-number">iii.</span>
+        <h3 class="card-title">Private Tours</h3>
+        <p class="card-text">Custom days with the guides, sommeliers, and curators we trust.</p>
+      </div>
+      <div class="card">
+        <span class="card-number">iv.</span>
+        <h3 class="card-title">Tickets &amp; Events</h3>
+        <p class="card-text">Opera at the Garnier, the Salzburg Festival, harvest at a single-estate domaine.</p>
+      </div>
+    </div>
+    <div style="margin-top:2.5rem;"><a href="services.html" class="cta-ghost">All Services</a></div>
+  </div>
+</section>
+
+<!-- SUNSET INTERLUDE -->
+<section class="interlude">
+  <div class="interlude-image">
+    <img src="pouzauges-sunset.jpg" alt="Sunset over Pouzauges" loading="lazy">
+  </div>
+  <div class="interlude-caption">
+    <div class="interlude-label">From here, all of Europe</div>
+    <p class="interlude-text">
+      The sun sets toward <em>Bordeaux and the Atlantic.</em> Behind us: <em>Lyon, the Alps, Italy.</em> We're nowhere near the famous places — <em>but we know the way to all of them.</em>
+    </p>
+  </div>
+</section>
+
+<!-- ETHOS -->
+<section style="background:var(--paper);">
+  <div class="container">
+    <blockquote class="ethos-quote">
+      We don't move travelers through Europe. We hand them <strong>the keys to a continent</strong> — the table by the window, the vintner who'll open the cellar, the small hotel that remembers your name on the second visit.
+    </blockquote>
+    <div class="ethos-signature">— Arthur &amp; John</div>
+  </div>
+</section>
+
+<!-- CONTACT TEASER -->
+<section style="background:var(--cream-dark);text-align:center;">
+  <div class="container">
+    <div class="section-label" style="justify-content:center;">Begin</div>
+    <h2 class="section-title" style="margin:0 auto 2rem;text-align:center;">Tell us what you <em>dream of.</em></h2>
+    <p style="font-family:'Fraunces',serif;font-size:1.15rem;color:var(--ink-soft);line-height:1.5;margin-bottom:2.5rem;max-width:34rem;margin-left:auto;margin-right:auto;font-weight:300;">
+      A first conversation is free, candid, and in either English or French.
+    </p>
+    <a href="contact.html" class="cta">Inquire</a>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-mark">Maison Farrow <em>&amp;</em> Herrera</div>
+  <div class="footer-location">Pouzauges · Vendée · France</div>
+  <div class="footer-rule"></div>
+  <div class="footer-nav">
+    <a href="index.html">Home</a>
+    <a href="about.html">The House</a>
+    <a href="services.html">Services</a>
+    <a href="europe.html">Europe</a>
+    <a href="contact.html">Inquire</a>
+  </div>
+  <div class="footer-fine">A bespoke European travel concierge · Established 2026</div>
+</footer>
+</body>
+</html>
